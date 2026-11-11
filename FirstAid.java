@@ -7,7 +7,7 @@ public class FirstAid {
         
         try {
             Environment clips = new Environment();
-            clips.load("C:\\Users\\Raghad\\Documents\\NetBeansProjects\\FirstAidResponse\\FirstAidRules.CLP");	
+            clips.load("C:\\path-to-project-file\\FirstAidRules.CLP");//change this based on path on workstation	
             clips.reset();
             
             System.out.println("CLIPS file loaded successfully.");
